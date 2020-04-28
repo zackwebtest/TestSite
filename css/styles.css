@@ -1,0 +1,188 @@
+/* General */
+.dotted-break{
+border-style: none;
+border-top-style: dotted;
+border-width: 7px;
+width: 10%;
+border-color: #f0a594;
+margin-top: 20px;
+margin-bottom: 0px;
+}
+
+/* TITLE SECTION */
+#title{
+  margin-bottom: 3%;
+}
+
+.header{
+  background-color: #e76f54;
+  padding: 5%;
+}
+
+.header-title{
+  color: #fff;
+  padding: 0 5% 5% 5%;
+  font-family: "Montserrat";
+  text-align: center;
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.header-image{
+  padding-left: 20%;
+  position: relative;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Equipment Section */
+#devices{
+  text-align: center;
+  font-family: "Montserrat";
+  padding: 5%;
+  background-color: #f0a594;
+  border: 3px solid #e76f54;
+  margin-bottom: 80px;
+}
+
+.display-box{
+  padding: 3%;
+}
+
+.equipment-name{
+  font-family: "Baloo Bhaina 2";
+  font-size: 1.5rem;
+  color: #e76f54;
+  font-weight: bolder;
+}
+
+.equipment-image{
+  width: 300px;
+  height: 200px;
+}
+
+.equipment-border{
+  border: 7px solid #e76f54;
+  padding: 7%;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Testimonials/Info Section */
+
+.subheader{
+  color: #de3a14;
+  font-family: "Noto-Sans";
+}
+
+.info-section{
+  text-align: center;
+  padding: 3%;
+}
+
+.main-text{
+  font-weight: 600;
+  font-size: 1.3rem;
+  font-family: "Baloo Bhaina 2";
+}
+
+
+/* Testimonial Carousel */
+#carouselSlide{
+  text-align: center;
+  margin: 5%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.testimonial-text{
+  color: #a4243b;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: "Noto-Sans";
+  padding: 1% 15%
+}
+
+#footer{
+  text-align: center;
+  background-color:#e76f54;
+  padding: 0;
+}
+
+.footer-bar{
+  padding: 5%;
+}
+
+.footer-text{
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Baloo Bhaina 2";
+  text-decoration: underline;
+}
+
+.footer-brand{
+  display: inline-block;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  color: #fff;
+  margin-top: 3%;
+  border: 2px solid #fff;
+}
+
+.footer-brand:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ABOUT US PAGE */
+
+/* Mission Section */
+#mission{
+  text-align: center;
+  border: 5px solid #e76f54;
+}
+
+.mission-box{
+  padding: 5%;
+}
+
+.mission-img{
+  padding: 3%;
+}
+/* Products / Services Page */
+#products{
+  text-align: center;
+  border: 5px solid #e76f54;
+}
+
+.product-box{
+  text-align: center;
+}
+
+.product-list{
+  text-decoration: none;
+  list-style-position: inside;
+}
+
+.product-item{
+  color: #000;
+}
+
+/* Media Queries */
+
+@media (max-width: 500px){
+  .header-title{
+    text-align: center;
+  }
+
+  .header-image{
+    padding-left:76px;
+  }
+}
